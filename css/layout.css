@@ -75,7 +75,7 @@ header .title {
 
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   /* vertical-align: middle; */
    margin: 0 auto;
    width: 85%;
    text-align: center;
