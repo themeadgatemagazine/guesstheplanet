@@ -48,7 +48,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url(../images/header-background.jpg) no-repeat top center fixed;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url(../images/header-background.png) no-repeat top center fixed;
    /* background-size: cover; */
 	/* -webkit-background-size: cover; */
    text-align: center;
@@ -83,27 +83,25 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 8rem/1.1em 'opensans-bold', sans-serif;
+   font: 6rem/1.1em 'opensans-bold', sans-serif;
    color: rgb(10, 207, 214);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h2 {
-   font: 4rem/1.1em 'opensans', sans-serif;
+   font: 3rem/1.1em 'opensans', sans-serif;
    color: rgb(122, 231, 235);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   /* font: 18px/1.9em 'librebaskerville-regular', serif; */
-   font: 18px/1.9em 'opensans', sans-serif;
-   /* color: #d6d6d6; */
-   color: rgb(128, 239, 243);
-   margin: 0 auto;
-   width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   font: 3rem/1.1em 'opensans', sans-serif;
+   color: rgb(122, 231, 235);
+   letter-spacing: 0px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -181,18 +179,17 @@ header .labelField {
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color:rgb(213, 250, 252);
    font-size: 1em;
-   position: relative;
  }
 
  header .txtField {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 1em;
    margin-bottom: 5px;
-   position: relative;
  }
 
  header .btnSend {
-   
+   background-color: rgb(7, 99, 141) ;
+   color: azure;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
    height: 50px;
    width: 75px;
@@ -207,44 +204,6 @@ header .labelField {
    margin-top: 15px;
    padding-bottom: 1.3em;
  }
- .btnDisable {
-    background-color: rgb(230, 249, 255);
-    color: black;
- }
- .btnEnable {
-   background-color: rgb(7, 99, 141) ;
-   color: azure;
-}
-
-
-#survey {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
-   border-collapse: collapse;
-   width: 100%;
-   padding-top: 5em;
- }
- 
- #survey td, #survey th {
-   border: 1px solid #ddd;
-   padding: 8px;
-   color: #122B26;
-   text-align: left;
- }
- 
- #survey tr:nth-child(even){background-color: #A6F9E9;}
- #survey tr:nth-child(odd){background-color: #C9F8EF;}
- 
- 
- #survey tr:hover {background-color: #62F8DA;}
- 
- #survey th {
-   padding-top: 12px;
-   padding-bottom: 12px;
-   text-align: left;
-   background-color: #04AA6D;
-   color: white;
- }
-
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -306,7 +265,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #f00000; }
+ul#nav li.current a { color: rgb(102, 225, 230); }
 
 
 /* ------------------------------------------------------------------ */
@@ -336,8 +295,8 @@ ul#nav li.current a { color: #f00000; }
    position: relative;
    width: 150px;
    height: 150px;
-   border-radius: 25%;
-   border: 5px solid #11ABB0;
+   border-radius: 50%;
+   border: 1px solid #11ABB0;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -425,7 +384,7 @@ ul#nav li.current a { color: #f00000; }
 }
 
 section .skills {
-   font-size: 8rem;
+   font-size: 6rem;
    display: grid;
    grid-template-columns: repeat(6, 0fr);
    text-align: center;

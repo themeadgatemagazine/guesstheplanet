@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/guesstheplanet/static/css/main.c570baaf.css",
-    "main.js": "/guesstheplanet/static/js/main.3d78a15f.js",
+    "main.js": "/guesstheplanet/static/js/main.a8f8b698.js",
     "index.html": "/guesstheplanet/index.html",
     "main.c570baaf.css.map": "/guesstheplanet/static/css/main.c570baaf.css.map",
-    "main.3d78a15f.js.map": "/guesstheplanet/static/js/main.3d78a15f.js.map"
+    "main.a8f8b698.js.map": "/guesstheplanet/static/js/main.a8f8b698.js.map"
   },
   "entrypoints": [
     "static/css/main.c570baaf.css",
-    "static/js/main.3d78a15f.js"
+    "static/js/main.a8f8b698.js"
   ]
 }
