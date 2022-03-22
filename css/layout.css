@@ -717,8 +717,8 @@ section .skills .technology:hover {
    -moz-transition: opacity 0.2s ease-in-out;
    -webkit-transition: opacity 0.2s ease-in-out;
    -ms-transition: opacity 0.2s ease-in-out;
-   transition: opacity 0.2s ease-in-out;
-   background: url("../images/overlay-bg.png");
+   /* transition: opacity 0.2s ease-in-out; */
+   /* background: url("../images/overlay-bg.png"); */
    border-radius: 0.35em;
    content: "";
    display: block;
@@ -736,7 +736,7 @@ section .skills .technology:hover {
    opacity: 1;
  }
  .image.thumb:hover:before {
-   background: url("images/overlay-bg.png"), url("images/overlay-bg.png");
+   /* background: url("images/overlay-bg.png"), url("images/overlay-bg.png"); */
    opacity: 1;
  }
  .image img {
